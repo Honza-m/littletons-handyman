@@ -1,0 +1,27 @@
+---
+layout: base
+---
+
+<!-- Header -->
+<header id="header">
+  <a href="{% link index.md %}" class="title">{{site.site_name}}</a>
+  <nav>
+    <ul>
+      <li><a href="{% link index.md %}#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Wrapper -->
+<div id="wrapper">
+  <!-- Main -->
+  <section id="main" class="wrapper">
+    <div class="inner">
+      <h1 class="major">{{page.title}}</h1>
+      <span class="image fit">
+        <img src="{% link {{ page.image }} %}" alt="{{page.image_alt}}" />
+      </span>
+      {{content}}
+    </div>
+  </section>
+</div>

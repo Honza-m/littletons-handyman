@@ -1,0 +1,16 @@
+- icon: fa-hammer
+  heading: My first service
+  description: >
+    Short description of the service goes here
+- icon: fa-screwdriver
+  heading: My second service
+  description: >
+    Short description of the service goes here
+- icon: fa-lightbulb
+  heading: My third service
+  description: >
+    Short description of the service goes here
+- icon: fa-wrench
+  heading: My fourth service
+  description: >
+    Short description of the service goes here
