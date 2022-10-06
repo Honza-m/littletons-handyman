@@ -33,17 +33,22 @@
 
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
+		bg:					#2A3D45,
+		bg-alt:				darken(#2A3D45, 5),
 		fg:					rgba(255,255,255,0.55),
 		fg-bold:			#ffffff,
 		fg-light:			rgba(255,255,255,0.35),
 		border:				rgba(255,255,255,0.15),
 		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
-		accent2-alt:		darken(#5052b5, 10),
-		accent3:			#b74e91,
-		accent3-alt:		darken(#b74e91, 10)
+		accent1:			#2A618D,
+		accent1-alt:		darken(#2A618D, 10),
+		accent2:			#2a2a2a,
+		accent2-alt:		darken(#9A8F97, 10),
+		accent3:			#902D41,
+		accent3-alt:		darken(#902D41, 10)
 	);
+
+// bg - menu bar
+// accent 1 - under logo + get in touch
+// accent 2 - post
+// accent 3 - services

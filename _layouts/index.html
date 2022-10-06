@@ -5,68 +5,13 @@ layout: base
 {% include sidebar.html %}
 <!-- Wrapper -->
 <div id="wrapper">
-  <!-- Intro -->
-  <section id="intro" class="wrapper style1 fullscreen fade-up">
-    <div class="inner">
-      <h1>{{site.site_name}}</h1>
-      <p>
-        Just another fine responsive site template designed by
-        <a href="http://html5up.net">HTML5 UP</a><br />
-        and released for free under the
-        <a href="http://html5up.net/license">Creative Commons</a>.
-      </p>
-      <ul class="actions">
-        <li><a href="#one" class="button scrolly">Learn more</a></li>
-      </ul>
-    </div>
-  </section>
+  
+  {% include intro.html%}
 
-  <!-- work -->
-  <section id="work" class="wrapper style2 spotlights">
-    {% for post in site.posts %}
-    <section>
-      <a href="{{post.url}}" class="image"
-        ><img
-          src="{% link {{post.image}} %}"
-          alt="{{post.image_alt}}"
-          data-position="center center"
-      /></a>
-      <div class="content">
-        <div class="inner">
-          <h2>{{post.title}}</h2>
-          <p>{{post.excerpt}}</p>
-          <ul class="actions">
-            <li><a href="{{post.url}}" class="button">Learn more</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    {% endfor %}
-  </section>
+  {% include services.html%}
 
-  <!-- services -->
-  <section id="services" class="wrapper style3 fade-up">
-    <div class="inner">
-      <h2>What we do</h2>
-      <p>
-        Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-        mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-        hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-        quis lorem.
-      </p>
-      <div class="features">
-        {% for service in site.data.services %}
-        <section>
-          <span class="icon solid major {{service.icon}}"></span>
-          <h3>{{service.heading}}</h3>
-          <p>{{service.description}}</p>
-        </section>
-        {% endfor %}
-      </div>
-      <ul class="actions">
-        <li><a href="generic.html" class="button">Learn more</a></li>
-      </ul>
-    </div>
-  </section>
+  {% include past-work.html %}
+
   {% include contact-form.html %}
+
 </div>

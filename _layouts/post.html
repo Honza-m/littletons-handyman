@@ -18,8 +18,15 @@ layout: base
   <section id="main" class="wrapper">
     <div class="inner">
       <h1 class="major">{{page.title}}</h1>
-      <span class="image fit">
-        <img src="{% link {{ page.image }} %}" alt="{{page.image_alt}}" />
+      <span
+        class="image fit short"
+        style="background-image: url('{% link {{page.image}} %}'); background-position: {{page.image_position | default: 'center center'}};"
+      >
+        <img
+          src="{% link {{ page.image }} %}"
+          alt="{{page.image_alt}}"
+          style="display: none"
+        />
       </span>
       {{content}}
     </div>

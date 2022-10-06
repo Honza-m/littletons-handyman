@@ -1,0 +1,24 @@
+<!-- services -->
+<section id="services" class="wrapper style3 fade-up">
+  <div class="inner">
+    <h2>What we do</h2>
+    <p>
+      With over 30 year experience as an electrical technician, Steve has a wealth of knowledge and skills 
+      to help you with your next project in Colorado.
+    </p>
+    <div class="features">
+      {% for service in site.data.services %}
+      <section>
+        <span class="icon solid major {{service.icon}}"></span>
+        <h3>{{service.heading}}</h3>
+        <p>{{service.description}}</p>
+      </section>
+      {% endfor %}
+    </div>
+    {% comment %}
+    <ul class="actions">
+      <li><a href="generic.html" class="button">Learn more</a></li>
+    </ul>
+    {% endcomment %}
+  </div>
+</section>

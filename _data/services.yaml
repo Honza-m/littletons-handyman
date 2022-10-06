@@ -1,16 +1,16 @@
-- icon: fa-hammer
-  heading: My first service
-  description: >
-    Short description of the service goes here
-- icon: fa-screwdriver
-  heading: My second service
-  description: >
-    Short description of the service goes here
 - icon: fa-lightbulb
-  heading: My third service
+  heading: Electrical appliences
   description: >
-    Short description of the service goes here
+    Smart home, lighting, ceiling fans, smoke detectors, electrical panel labeling
 - icon: fa-wrench
-  heading: My fourth service
+  heading: Kitchen & Bathroom
   description: >
-    Short description of the service goes here
+    Plumbing repairs, toilet instalation, shower repair, hot water heater flush
+- icon: fa-screwdriver
+  heading: Furniture assembly
+  description: >
+    Pergolas, outdoor storage, cabinets, vanities, TV wall mounts
+- icon: fa-home
+  heading: General upkeep
+  description: >
+    Snow removal, screen door repair, leaf blowing
