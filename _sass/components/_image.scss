@@ -57,7 +57,16 @@
 		&.center-logo {
 			display: flex;
 			justify-content: center;
-			max-height: 35em;
+			padding-bottom: 60%; 
+   			height: 0;
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+			}
 		}
 
 		&.main {
